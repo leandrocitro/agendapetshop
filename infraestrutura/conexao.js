@@ -1,6 +1,6 @@
 const atendimentos = require("../controllers/atendimentos");
 
-const mysql = (require = "mysql");
+const mysql = require("mysql");
 
 const conexao = mysql.createConnection({
     host: 'localhost',
@@ -9,3 +9,5 @@ const conexao = mysql.createConnection({
     password: 'admin',
     database: 'agenda-petshop'
 });
+
+module.exports = conexao
