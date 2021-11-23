@@ -1,0 +1,17 @@
+npm init
+Iniciar o projeto - Preencher os dados.
+
+criar a index.js
+
+npm install express
+instalar o framework express
+
+"start": "nodemon index.js"
+inserir no package.json
+
+npm install --save-dev nodemon
+instala a dependência nodemon só no ambiente de Dev
+
+npm install consign
+
+npm install body-parser
